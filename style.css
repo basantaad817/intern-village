@@ -13,3 +13,354 @@
     --button-bg:#FAD865;
     --footer-bg:#232432;
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    margin: 20px 100px;
+}
+button{
+    text-align: center;
+    height: 30px;
+    width: 165px;
+    background: #FAD865 0% 0% no-repeat padding-box;
+    font: normal normal normal 16px/22px Nunito;
+    letter-spacing: 0px;
+    color: #222222;
+    opacity: 1;
+    border: none;
+    padding:0 10px;
+}
+/* navigation bar starts */
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    text-align: left;
+    font: normal normal 900 32px/44px Maven Pro;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: lowercase;
+    opacity: 1;
+}
+.options ul{
+    list-style-type: none;
+}
+.options li{    
+    display: inline-block;
+    margin: 0 11px;
+    text-align: right;
+    font: normal normal bold 16px/22px Nunito;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.options li a{
+    text-decoration: none;
+    text-align: center;
+    color: var(--black);
+}
+/* navigation bar ends */
+
+/* home section starts */
+#home{
+    background: #FFF7DB 0% 0% no-repeat padding-box;
+    padding-top: 49px;
+    padding-left: 65px;
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#home h6{
+    width: 392px;
+    height: 138px;
+    text-align: left;
+    font: normal normal normal 52px/69px Josefin Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.text{
+    padding-top: 23px;
+    padding-bottom: 165px;
+    width: 500px;
+    height: 144px;
+    font: normal normal normal 18px/30px Nunito;
+    text-align: left;
+    letter-spacing: 0.36px;
+    color: #000000;
+}
+#home img{
+    height: 380px;
+    width: 380px;
+    padding-right: 120px;
+    transform: scale(1.7);
+}
+/* home section completed */
+/* companies section start */
+#companies{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 1440px;
+    height: 150px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#companies p{
+    text-align: left;
+    font: normal normal normal 18px/30px Nunito Sans;
+    letter-spacing: 0.36px;
+    color: #000000;
+    width: 225px;
+    height: 54px;
+}
+.company-logo img{
+    padding-right: 84px;
+}
+/* company section completed */
+/* vaccancies part start */
+#internships{
+    width: 100%;
+    display: flex;
+}
+.vacancy{
+    width: 64%;
+    padding-right: 1px;
+}
+.upper-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.upper-part h3{
+    text-align: left;
+    font: normal normal bold 24px/62px Nunito;
+    letter-spacing: 0px;
+    color: #1C1B24;
+}
+.upper-part p{
+    font: normal normal normal 16px/62px Nunito;
+    letter-spacing: 0px;
+    color: #FF6600;
+    text-transform: capitalize;
+}
+.upper-part p img{
+    padding-right:5px;
+}
+.offer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    margin-bottom: 10px;
+    padding: 16px;    
+}
+.row{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.name{
+    padding-left: 15px;
+    text-transform: capitalize;
+    letter-spacing: 0px;
+    color: #1C1B24;
+    text-align: left;
+}
+.name h6{
+    font: normal normal bold 18px/20px Nunito;
+}
+.name .post{
+    font: normal normal normal 16px/20px Nunito;
+}
+.name.location{
+    font: normal normal normal 14px/20px Nunito;
+}
+.arrow{
+    padding-left: 30px;
+}
+/* see-more */
+.see-more{
+    width: 200px;
+    height: 52px;
+    background: #22222233 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font: normal normal normal 16px/22px Nunito;
+    letter-spacing: 0px;
+    color: #201e1e;
+    opacity: 1;
+}
+/* keywords start */
+.keywords{
+    width: 20%;
+    height: 302px;
+    margin-left: 20px;
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    padding: 2px 20px;
+}
+form label{
+    text-align: left;
+    font: normal normal bold 20px/62px Nunito;
+    letter-spacing: 0px;
+    color: #1C1B24;
+    text-transform: capitalize;
+    opacity: 1;
+}
+form input[type=text]{
+    width: 100%;
+    height: 48px;
+    display: inline-block;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E4E4E4;
+    opacity: 1;
+    text-align: left;
+    font: normal normal normal 16px/62px Nunito;
+    letter-spacing: 0px;
+    color: #1C1B24;
+    opacity: 0.6;
+    padding: 20px ;
+}
+form  select{
+    width: 100%;
+    height: 48px;
+    display: inline-block;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E4E4E4;
+    text-align: left;
+    font: normal normal normal 16px/62px Nunito;
+    letter-spacing: 0px;
+    color: #1C1B24;
+    opacity: 1;
+    padding: 0 10px;
+}
+/* keywords end */
+
+/* hire interns part starts */
+#hire{
+    width: 1440px;
+height: 356px;
+background: #F8F8F8 0% 0% no-repeat padding-box;
+opacity: 1;
+align-items: center;
+text-align: center;
+padding: 47px 420px 60px 420px;
+}
+#hire h2{
+text-align: center;
+font: normal normal normal 40px/53px Josefin Sans;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+#hire p{
+    width: 600px;
+height: 84px;
+text-align: center;
+font: normal normal normal 18px/30px Nunito;
+letter-spacing: 0.36px;
+color: #000000;
+opacity: 1;
+margin: 20px 0 40px 0;
+}
+/* hire part ends */
+/* footer part starts */
+#footer{
+    width: 1440px;
+height: auto;
+background: #232432 0% 0% no-repeat padding-box;
+opacity: 1;
+padding: 56px 165px 21px 165px;
+}
+
+#footer  h3{
+    width: 200px;
+height: 43px;
+text-align: left;
+font: normal normal 900 32px/44px Maven Pro;
+letter-spacing: 0px;
+color: #FFFFFF;
+text-transform: lowercase;
+opacity: 1;
+}
+.description{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.description .about p{
+width: 741px;
+height: 84px;
+opacity: 1;
+padding-top: 39px;
+font-size: 18px;
+text-align: left;
+font: normal normal normal 18px/30px Nunito;
+letter-spacing: 0.36px;
+color: #FFFFFF;
+}
+
+.posted .number{
+    width: 129px;
+    height: 54px;
+    text-align: right;
+    font: normal normal normal 40px/50px Nunito;
+    letter-spacing: 0px;
+    color: #FF6600;
+    opacity: 1;
+    padding-left: 58px;
+}
+.posted span{
+    width: 187px;
+    height: 32px;
+    text-align: right;
+    font: normal normal normal 24px/50px Nunito;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+#footer a{
+    text-align: left;
+    font: normal normal bold 18px/30px Nunito;
+    letter-spacing: 0.36px;
+    color: #FF6600;
+    opacity: 1;
+    margin-top: 20px;
+    padding-bottom: 60px;
+    text-decoration: none;
+}
+
+/* footer links */
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 21px;
+}
+.links{
+}
+.footer-links .links ul{
+    list-style-type: none;
+}
+.footer-links .links ul li{
+    display: inline-block;
+    text-align: right;
+    font: normal normal normal 16px/22px Nunito;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding-right: 22px;
+}
+.social a{
+    padding-left: 10px;
+}
