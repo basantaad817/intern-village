@@ -1,0 +1,15 @@
+/* setting up the variables */
+:root{
+    --primary:#FFF7DB;
+    --white:#ffffff;
+    --black:#000000;
+    --bg-light:#F5F5F5;
+    --text-body:#1C1B24;
+    --form-placeholder:#E4E4E4;
+    --toggler:#222222;
+    --orange:#FF6600;
+    --icon-bg:#22222233;
+    --down-bg:#F8F8F8;
+    --button-bg:#FAD865;
+    --footer-bg:#232432;
+}
